@@ -1,0 +1,14 @@
+// FONTS 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+// VARIABLES
+$primary-color-100: hsl(217, 19%, 35%);  // Very Dark Grayish Blue - Heading
+$primary-color-200: hsl(214, 17%, 51%);  // Desaturated Dark Blue - Paragraph
+$neutral-color-100: hsl(212, 23%, 69%);  // Grayish Blue - Background
+$neutral-color-200: hsl(210, 46%, 95%);  // Light Grayish Blue - Card background
+
+// FILE IMPORTS
+@import 'component';
+@import 'media';
+@import 'general';
+@import 'styles';
