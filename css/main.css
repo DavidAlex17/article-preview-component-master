@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+main {
+  margin: 10rem auto;
+  width: 365px;
+}
+
+main #avatar-img {
+  background-size: cover;
+  width: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -12,6 +22,7 @@ body {
   height: 100vh;
   font-family: 'Manrope', sans-serif;
   background-color: #9eafc2;
+  font-size: 13px;
 }
 
 .attribution {
@@ -21,5 +32,22 @@ body {
 
 .attribution a {
   color: #3e52a3;
+}
+
+main {
+  background-color: #ecf2f8;
+}
+
+h1 {
+  color: #48556a;
+}
+
+p {
+  color: #6d7f97;
+}
+
+span {
+  color: #6d7f97;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
