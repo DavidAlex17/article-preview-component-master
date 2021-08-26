@@ -1,8 +1,27 @@
 main {
-  margin: 10rem auto; // i left off here, positioning
-  width: 365px;
-  #avatar-img {
+  margin: 10rem auto; 
+  width: 360px;
+  text-align: left;
+  
+  #header-img {
     background-size: cover; // why use cover when you can use width?
     width: 100%;
+  }
+}
+
+div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+
+  #avatar-img {
+    width: 18%;
+    border-radius: 50%;
+  }
+
+  #link-img {
+    background-color: $neutral-color-100;
+    border-radius: 50%;
+    padding: 5px;
   }
 }
