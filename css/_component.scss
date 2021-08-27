@@ -2,7 +2,7 @@ main {
   margin: 10rem auto; 
   width: 360px;
   text-align: left;
-  
+
   #header-img {
     background-size: cover; // why use cover when you can use width?
     width: 100%;
@@ -13,6 +13,7 @@ div {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 0.8em;
 
   #avatar-img {
     width: 18%;
@@ -21,7 +22,8 @@ div {
 
   #link-img {
     background-color: $neutral-color-100;
-    border-radius: 50%;
-    padding: 5px;
+    // border-radius: 50%;
+    padding: 10px;
+    // width: 25px;
   }
 }
