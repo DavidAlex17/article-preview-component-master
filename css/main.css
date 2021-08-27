@@ -20,6 +20,7 @@ div {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 0.8em;
 }
 
 div #avatar-img {
@@ -29,8 +30,7 @@ div #avatar-img {
 
 div #link-img {
   background-color: #9eafc2;
-  border-radius: 50%;
-  padding: 5px;
+  padding: 10px;
 }
 
 *,
@@ -73,6 +73,7 @@ h1 {
 
 p {
   color: #6d7f97;
+  margin-right: 55px;
   border: 1px solid black;
 }
 
