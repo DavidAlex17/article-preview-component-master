@@ -1,13 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
 main {
-  margin: 10rem auto;
-  width: 360px;
-  text-align: left;
+  margin: 15% auto;
+  max-width: 310px;
 }
 
 main #header-img {
   background-size: cover;
   width: 100%;
+}
+
+h1 {
+  font-size: medium;
+}
+
+p {
+  font-size: 1em;
 }
 
 div {
@@ -24,12 +31,17 @@ div {
 }
 
 div #avatar-img {
-  width: 18%;
+  width: 12%;
   border-radius: 50%;
+}
+
+div h1 {
+  font-size: small;
 }
 
 div #link-img {
   background-color: #9eafc2;
+  border-radius: 50%;
   padding: 10px;
 }
 
@@ -73,7 +85,6 @@ h1 {
 
 p {
   color: #6d7f97;
-  margin-right: 55px;
   border: 1px solid black;
 }
 
@@ -84,9 +95,5 @@ div {
 span {
   color: #6d7f97;
   font-weight: 500;
-}
-
-img {
-  border: 1px solid black;
 }
 /*# sourceMappingURL=main.css.map */
