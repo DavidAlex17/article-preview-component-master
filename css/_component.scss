@@ -1,11 +1,12 @@
 main {
   margin: 15% auto; 
-  max-width: 310px;  // i left off here, still figuring out how to make the contents inside main 
-                     // to look like the picture. fix header img, heading & paragraph size, and second h1 heading
-  #header-img {
-    background-size: cover; // why use cover when you can use width?
-    width: 100%;
-  }
+  max-width: 308px;
+}
+
+#header-img {
+   object-fit: cover;
+   width: 100%;
+   height: 180px;
 }
 
 h1 {
@@ -23,12 +24,13 @@ div {
   font-size: 0.8em;
 
   #avatar-img {
-    width: 12%;
+    width: 15%;
     border-radius: 50%;
   }
 
   h1 {
     font-size: small;
+    margin-right: 35px;
   }
 
   #link-img {
