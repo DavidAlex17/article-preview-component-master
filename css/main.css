@@ -11,12 +11,12 @@ main {
   height: 180px;
 }
 
-h1 {
-  font-size: medium;
+h1:first-child {
+  margin-top: 20px;
 }
 
-p {
-  font-size: 1em;
+section {
+  padding: 10px 25px;
 }
 
 div {
@@ -29,7 +29,6 @@ div {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 0.8em;
 }
 
 div #avatar-img {
@@ -38,7 +37,6 @@ div #avatar-img {
 }
 
 div h1 {
-  font-size: small;
   margin-right: 35px;
 }
 
@@ -77,26 +75,27 @@ main {
   background-color: #ecf2f8;
 }
 
-section {
-  padding: 1.5rem;
-}
-
 h1 {
   color: #48556a;
-  border: 1px solid black;
+  font-size: medium;
 }
 
 p {
   color: #6d7f97;
-  border: 1px solid black;
-}
-
-div {
-  border: 1px solid black;
+  margin: 20px 0px;
+  font-size: 1em;
 }
 
 span {
   color: #6d7f97;
   font-weight: 500;
+}
+
+div {
+  font-size: 0.8em;
+}
+
+div h1 {
+  font-size: small;
 }
 /*# sourceMappingURL=main.css.map */
