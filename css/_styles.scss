@@ -1,26 +1,22 @@
-main {
-  background-color: $neutral-color-200;
-}
-
-section {
-  padding: 1.5rem;
-}
+main {background-color: $neutral-color-200;}
 
 h1 {
   color: $primary-color-100;
-  border: 1px solid black;
+  font-size: medium;
 }
 
 p {
   color: $primary-color-200;      
-  border: 1px solid black;
-}
-
-div {
-  border: 1px solid black;
+  margin: 20px 0px;
+  font-size: 1em;
 }
 
 span {
   color: $primary-color-200;
   font-weight: 500;
+}
+
+div {
+  font-size: 0.8em;
+  h1 {font-size: small;}
 }
