@@ -11,15 +11,16 @@ main {
   height: 180px;
 }
 
-h1:first-child {
-  margin-top: 20px;
-}
-
 section {
   padding: 10px 25px;
 }
 
+section h1:nth-child(1) {
+  margin-top: 20px;
+}
+
 div {
+  padding: 0px 25px 10px 25px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -44,6 +45,15 @@ div #link-img {
   background-color: #9eafc2;
   border-radius: 50%;
   padding: 10px;
+}
+
+div:last-of-type {
+  width: 100%;
+  background-color: #48556a;
+}
+
+div:last-of-type h1 {
+  color: #6d7f97;
 }
 
 *,
