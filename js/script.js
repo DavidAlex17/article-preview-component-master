@@ -1,18 +1,24 @@
-let normal = document.querySelector("#normal-state");
-let active = document.querySelector("#active-state");
-let triangle = document.querySelector("#triangle");
-let buttonOne = document.querySelector("#button-1")
-let buttonTwo = document.querySelector("#button-2");
+let footer = document.querySelector(".footer");
 
-active.style.display = "none";
+footer.addEventListener("click", e => { 
 
-normal.addEventListener("click", toggle => {
-  normal.style.display = "none";
-  active.style.display = "inline-flex";
-})
+	const matchesSelector = e.target.matches(".card :is(button.share, button.share i)");
+	if (!matchesSelector) return; 
+  
+	/* if (!e.target.matches(".card :is(button.share, button.share i)")) return; */
+  
+  const btn = e.target.tagName === "BUTTON" ? e.target : e.target.parentElement;
+  
+  btn.parentElement.classList.toggle("share");
+}, {passive: true})
 
-function toggle() {
-  if (normal.style.display == "none") {
-    active.style.display = "inline-flex";
-  }
-}
+
+// const popupMessage = document.querySelector('.author-wrap')
+
+// const btn = document.querySelector('.share')
+
+// const displayPopup = () => {
+//   popupMessage.classList.toggle('.share')
+// }
+
+// btn.addEventListener('click', displayPopup)
